@@ -9,11 +9,13 @@ Use API calls and parse through returned JSON objects, outputting them in a spec
 Read commands and queries from file
 
 Technologies Used
+
 Node.js
 JavaScript
 Twitter API (via twitter npm module)
 Spotify API (via spotify npm module)
 OMDb API (via request npm module)
+
 Code Explanation
 Authentication keys for Twitter are stored in "keys.js", and we are exporting its contents to the main "liri.js" file
 What our app does depends on what the user types, and there are 4 main functions: (1) prints latest tweets, (2) Spotify lookup for a song, (3) OMDb lookup for a movie, and (4) read command and query from another file
